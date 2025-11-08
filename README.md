@@ -7,7 +7,7 @@ key and value that are set at initialization time. this allows a single
 implementation to be configured as a hashset and linked hashset by using
 zero length values. the API however still takes a value parameter just the
 length can be zero. the design adopts an open-addressing hashtable with
-tombstone bitmaps to eliminate the need for empty or deleted key sentinels.
+tombstone bitmaps to eliminate empty or deleted key sentinels.
 
 the implementation does not support any advanced features like custom
 deleters or multithreading. it is designed to be a simple and fast hash

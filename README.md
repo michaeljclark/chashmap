@@ -13,7 +13,7 @@ the implementation does not support any advanced features like custom
 deleters or multithreading. it is designed to be a simple and fast hash
 table with minimal dependencies and that will compile in standard C11.
 
-the implementation is derived from [ethical_hashmap](https://github.com/michaeljclark/ethical_hashmap)
+the implementation is derived from [cpphashmap](https://github.com/michaeljclark/cpphashmap)
 which is a fast C++ hashmap, hashset, linked hashmap and linked hash set
 implementation that supports C++ copy and move constructors, placement new
 and explicit destructor calls for flexible templated key and value classes.
